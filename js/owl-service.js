@@ -1,6 +1,9 @@
 $(document).ready(function () {
     $("#news-slider").owlCarousel({
-        items: 2,
+        loop: true,
+        autoplay: true,
+        autoplayTimeout: 2000,
+        autoplayHoverPause: true,
         nav: true,
         navText: [
             '<img src="img/icon/left.svg" alt="">',
