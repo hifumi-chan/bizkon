@@ -2214,9 +2214,7 @@ ul {
   position: relative;
   z-index: 1;
   padding: 70px 0px 140px;
-  background-image: url(../img/about_overlay.png);
   background-repeat: no-repeat;
-  background-position: left;
   background-size: 33% 73%;
 }
 @media (max-width: 576px) {
@@ -2348,6 +2346,16 @@ ul {
     background-size: 48% 70%;
   }
 }
+.bg-left {
+  background-image: url(../img/about_overlay.png);
+  background-position: left;
+}
+
+.bg-right {
+  background-image: url(../img/about_overlay_right.png);
+  background-position: right;
+}
+
 /**************** service_part css start ****************/
 .service_part .single_service_text h2 {
   font-size: 45px;
