@@ -2477,18 +2477,12 @@ ul {
   line-height: 60px;
   text-align: center;
   border-radius: 5px;
-  background-image: -moz-linear-gradient(131deg, #00b09b 0%, #96c93d 100%);
-  background-image: -webkit-linear-gradient(131deg, #00b09b 0%, #96c93d 100%);
-  background-image: -ms-linear-gradient(131deg, #00b09b 0%, #96c93d 100%);
   box-shadow: 0px 12px 20px 0px rgba(53, 185, 122, 0.2);
 }
 .service_part .single_service_part .style_icon:after {
   background-color: #f6ece5;
 }
 .service_part .single_service_part .style_icon i {
-  background-image: -moz-linear-gradient(131deg, #ff7e5f 0%, #feb47b 99%);
-  background-image: -webkit-linear-gradient(131deg, #ff7e5f 0%, #feb47b 99%);
-  background-image: -ms-linear-gradient(131deg, #ff7e5f 0%, #feb47b 99%);
   box-shadow: 0px 12px 20px 0px rgba(255, 126, 95, 0.2);
 }
 .service_part .single_service_part h4 {
@@ -2529,6 +2523,63 @@ ul {
     margin-top: 20px;
   }
 }
+.warna-1 {
+  background-image: -moz-linear-gradient(131deg, #00b09b 0%, #96c93d 100%);
+  background-image: -webkit-linear-gradient(131deg, #00b09b 0%, #96c93d 100%);
+  background-image: -ms-linear-gradient(131deg, #00b09b 0%, #96c93d 100%);
+}
+
+.warna-2 {
+  background-image: -moz-linear-gradient(131deg, #ff7e5f 0%, #feb47b 99%);
+  background-image: -webkit-linear-gradient(131deg, #ff7e5f 0%, #feb47b 99%);
+  background-image: -ms-linear-gradient(131deg, #ff7e5f 0%, #feb47b 99%);
+}
+
+.warna-3 {
+  background: #ec008c;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #fc6767, #ec008c);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #fc6767, #ec008c);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.warna-4 {
+  background: #B2FEFA;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #0ED2F7, #B2FEFA);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #0ED2F7, #B2FEFA);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.warna-5 {
+  background: #00416A;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #FFE000, #799F0C, #00416A);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #FFE000, #799F0C, #00416A);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.warna-6 {
+  background: #B2FEFA;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #0ED2F7, #B2FEFA);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #0ED2F7, #B2FEFA);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.warna-7 {
+  background: #bc4e9c;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #f80759, #bc4e9c);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #f80759, #bc4e9c);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
 /**************** learn_about css start ****************/
 .portfolio_part {
   margin-bottom: -20px;
